@@ -1,0 +1,64 @@
+.skillcoursel {
+  padding: 60px 0 80px;
+  position: relative;
+}
+
+.skillcoursel-bx {
+  background: transparent;
+  border-radius: 24px;
+  text-align: center;
+  padding: 25px 20px;
+  margin-top: 0;                    
+  box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillcoursel h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.skillcoursel p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 40px auto;
+  max-width: 720px;
+}
+
+
+.skillcoursel-bx .skillcoursel-slider {
+  max-width: 900px;    
+  margin: 0 auto;      
+}
+
+
+.skill-item-wrapper {
+  padding: 10px;       
+}
+
+
+.item {
+  background: #1e1e1e;
+  border-radius: 16px;
+  padding: 24px 16px;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item h5 {
+  margin: 0;
+}
+
+/* Optional: make images inside items scale nicely if you add icons/logos later */
+.skillcoursel-slider .item img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto 12px;
+}

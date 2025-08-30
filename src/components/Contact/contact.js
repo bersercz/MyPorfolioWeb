@@ -1,7 +1,7 @@
 import './contact.css';
-import facebookIcon from '../../assets/linkedin.png';
+import linkedin from '../../assets/linkedin.png';
 import twitterIcon from '../../assets/twitter.png';
-import youtubeIcon from '../../assets/github.png';
+import github from '../../assets/github.png';
 import instagramIcon from '../../assets/instagram.png';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -58,11 +58,11 @@ const Contact = () => {
                     <button type="submit" value='Send' className='submitBtn'>Submit</button>
                     <div className="links">
                         <a href='https://linkedin.com/in/bersercz/' target='_blank' rel='noopener noreferrer'>
-                            <img src={facebookIcon} alt="Facebook" className="link" /></a>
+                            <img src={linkedin} alt="Facebook" className="link" /></a>
                         <a href='https://x.com/bersercz' target='_blank' rel='noopener noreferrer'>
                             <img src={twitterIcon} alt="Twitter" className="link" /></a>
-                        <a href='https://youtube.com/bersercz' target='_blank' rel='noopener noreferrer'>
-                            <img src={youtubeIcon} alt="YouTube" className="link" /></a>
+                        <a href='https://github.com/bersercz' target='_blank' rel='noopener noreferrer'>
+                            <img src={github} alt="YouTube" className="link" /></a>
                         <a href='https://instagram.com/bersercz' target='_blank' rel='noopener noreferrer'>
                             <img src={instagramIcon} alt="Instagram" className="link" /></a>
                     </div>

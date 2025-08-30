@@ -11,12 +11,12 @@ import Portfolio8 from '../../assets/portfolio-6.png';
 
 
 const Works = () => {
-  const projects = [{ src: Portfolio1, name: "", github:"https://github.com/bersercz/"},
-                    { src: Portfolio2, name: "", github:"https://github.com/bersercz/"},
-                    { src: Portfolio3, name: "", github:"https://github.com/bersercz/"},
-                    { src: Portfolio4, name: "", github:"https://github.com/bersercz/"},
-                    { src: Portfolio5, name: "", github:"https://github.com/bersercz/"},
-                    { src: Portfolio6, name: "", github:"https://github.com/bersercz/"},
+  const projects = [{ src: Portfolio1, name: "Census 2011-Analysis", github:"https://github.com/bersercz/"},
+                    { src: Portfolio2, name: "Netflix Dats-Analysis", github:"https://github.com/bersercz/"},
+                    { src: Portfolio3, name: "Housing Data-Analysis", github:"https://github.com/bersercz/"},
+                    { src: Portfolio4, name: "My Portfolio-react", github:"https://github.com/bersercz/MyPorfolioWeb"},
+                    { src: Portfolio5, name: "Weather Data-Analysis", github:"https://github.com/bersercz/"},
+                    { src: Portfolio6, name: "Udemy Data-Analysis", github:"https://github.com/bersercz/"},
                     {src:  Portfolio7, name: "", github:"https://github.com/bersercz/"},
                     {src:  Portfolio8, name: "", github:"https://github.com/bersercz/"},
                   ];
@@ -33,7 +33,7 @@ const Works = () => {
 
   return (
     <section id="works">
-      <h2 className="worksTitle">My Portfolio</h2>
+      <h2 className="worksTitle">My Projects</h2>
       <span className="worksDesc">
         I take pride in paying attention to the smallest details and making sure that my work is
         pixel perfect. I am excited to bring my skills and experience to help businesses achieve

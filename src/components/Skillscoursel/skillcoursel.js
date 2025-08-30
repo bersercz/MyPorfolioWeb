@@ -71,19 +71,9 @@ export const SkillsCarousel = () => {
 
               <Carousel
                 responsive={responsive}
-                infinite={true}
-                autoplay={true}
-                autoPlaySpeed={2000}
-                keyBoardControl={true}
-                showDots={false}
-                arrows={true}
-                pauseOnHover={false}
-                swipeable={false}
-                draggable={false}
                 containerClass="skillcoursel-slider"
                 itemClass="skill-item-wrapper"
-                renderButtonGroupOutside={false}
-                shouldResetAutoplay={true}
+                
                 
               >
                 {skills.map((skill, index) => (
